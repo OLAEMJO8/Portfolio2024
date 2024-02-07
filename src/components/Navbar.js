@@ -6,7 +6,7 @@ import Container from "react-bootstrap/Container";
 import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
 import { CgGitFork } from "react-icons/cg";
-import { ImBlog } from "react-icons/im";
+
 import {
   AiOutlineHome,
   AiOutlineFundProjectionScreen,
@@ -55,7 +55,7 @@ function NavBar() {
           <Nav className="ms-auto" defaultActiveKey="#home">
             <Nav.Item>
               <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}>
-                <AiOutlineHome style={{ marginBottom: "2px" }} /> Home
+                <AiOutlineHome style={{ marginBottom: "2px" }} /> Inicio
               </Nav.Link>
             </Nav.Item>
 
@@ -92,15 +92,15 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
-            <Nav.Item>
+            {/* <Nav.Item>
               <Nav.Link
-                href="https://soumyajitblogs.vercel.app/"
+                href=""
                 target="_blank"
                 rel="noreferrer"
               >
                 <ImBlog style={{ marginBottom: "2px" }} /> Blogs
               </Nav.Link>
-            </Nav.Item>
+            </Nav.Item> */}
 
             <Nav.Item className="fork-btn">
               <Button
