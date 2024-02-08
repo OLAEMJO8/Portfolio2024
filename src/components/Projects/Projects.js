@@ -15,7 +15,7 @@ function Projects() {
       <Particle />
       <Container>
         <h1 className="project-heading">
-          Mis recientes <strong className="purple">Proyectos</strong>
+          Mis <strong className="purple">Proyectos</strong>
         </h1>
 
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
