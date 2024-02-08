@@ -1,6 +1,6 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
-import { ImPointRight } from "react-icons/im";
+import { FaRegHeart } from "react-icons/fa";
 
 function AboutCard() {
   return (
@@ -9,22 +9,22 @@ function AboutCard() {
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
             Hola hola! Soy <span className="purple">Maria Jose Olaechea </span>
-            actualmente vivo en  <span className="purple"> Tandil, Argentina.</span>
-            <br />
-            Soy desarrolladora web y artista.
-           
-            <br />
+            actualmente vivo en{" "}
+            <span className="purple"> Tandil, Argentina.</span>
+            <p>
+              <br /> 
+            </p>
             Aparte del codigo me gusta:
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Ser Clown Humanitario
+              <FaRegHeart /> Ser Clown Humanitario
             </li>
             <li className="about-activity">
-              <ImPointRight /> Pintar
+              <FaRegHeart /> Pintar
             </li>
             <li className="about-activity">
-              <ImPointRight /> Leer y escribir
+              <FaRegHeart /> Leer y escribir
             </li>
           </ul>
 

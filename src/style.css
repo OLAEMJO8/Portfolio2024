@@ -460,7 +460,7 @@ button:focus {
 }
 
 .project-card-view {
-  box-shadow: 0 4px 5px 3px rgba(119, 53, 136, 0.459) !important;
+  /* box-shadow: 0 4px 5px 3px rgba(119, 53, 136, 0.459) !important; */
   color: white !important;
   background-color: transparent !important;
   opacity: 0.9 !important;
@@ -741,3 +741,31 @@ button:focus {
 .fork-btn-inner::after {
   display: none !important;
 }
+
+ @-webkit-keyframes tracking-in-contract {
+  0% {
+    letter-spacing: 1em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    letter-spacing: normal;
+    opacity: 1;
+  }
+}
+@keyframes tracking-in-contract {
+  0% {
+    letter-spacing: 1em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    letter-spacing: normal;
+    opacity: 1;
+  }
+}
+

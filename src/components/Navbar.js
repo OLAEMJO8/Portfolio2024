@@ -7,13 +7,7 @@ import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
 import { CgGitFork } from "react-icons/cg";
 
-import {
-  AiOutlineHome,
-  AiOutlineFundProjectionScreen,
-  AiOutlineUser,
-} from "react-icons/ai";
 
-import { CgFileDocument } from "react-icons/cg";
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
@@ -38,7 +32,7 @@ function NavBar() {
     >
       <Container>
         <Navbar.Brand href="/" className="d-flex">
-          {/* <img src={logo} className="img-fluid logo" alt="brand" /> */}
+          
           MJO
         </Navbar.Brand>
         <Navbar.Toggle
@@ -55,7 +49,7 @@ function NavBar() {
           <Nav className="ms-auto" defaultActiveKey="#home">
             <Nav.Item>
               <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}>
-                <AiOutlineHome style={{ marginBottom: "2px" }} /> Inicio
+                 Inicio
               </Nav.Link>
             </Nav.Item>
 
@@ -65,7 +59,7 @@ function NavBar() {
                 to="/about"
                 onClick={() => updateExpanded(false)}
               >
-                <AiOutlineUser style={{ marginBottom: "2px" }} /> Sobre mi
+                 Sobre mi
               </Nav.Link>
             </Nav.Item>
 
@@ -75,9 +69,7 @@ function NavBar() {
                 to="/project"
                 onClick={() => updateExpanded(false)}
               >
-                <AiOutlineFundProjectionScreen
-                  style={{ marginBottom: "2px" }}
-                />{" "}
+               {" "}
                 Proyectos
               </Nav.Link>
             </Nav.Item>
@@ -88,7 +80,7 @@ function NavBar() {
                 to="/resume"
                 onClick={() => updateExpanded(false)}
               >
-                <CgFileDocument style={{ marginBottom: "2px" }} /> Curriculum
+               Curriculum
               </Nav.Link>
             </Nav.Item>
 
