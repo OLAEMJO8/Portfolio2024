@@ -15,40 +15,25 @@ function Home2() {
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-              LET ME <span className="purple"> INTRODUCE </span> MYSELF
+              Me presento<span className="purple"> </span> 
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
+            Como artista y desarrolladora web, me dedico a fusionar mi creatividad con la tecnología para crear, adaptarme y aprender tanto en el escenario como en el mundo digital.
               <br />
-              <br />I am fluent in classics like
+              <br /> En mi experiencia me ha gustado trabajar mas en frontend con
               <i>
-                <b className="purple"> C++, Javascript and Go. </b>
+                <b className="purple"> React y Vue. </b>
               </i>
               <br />
               <br />
-              My field of Interest's are building new &nbsp;
-              <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
-                <b className="purple">
-                  Blockchain.
-                </b>
+              Me interesa seguir aprendiendo sobre el uso de distintos frameworks 
+              <i> Y mejorar mi CSS 😅
+               
               </i>
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
-              <i>
-                <b className="purple">
-                  {" "}
-                  Modern Javascript Library and Frameworks
-                </b>
-              </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> React.js and Next.js</b>
-              </i>
+             Disfruto mucho del trabajo en equipo y de aprender de mis compañeros, tener un buen ambiente de trabajo hace que el trabajo deje de ser trabajo <b className="purple">Espero seguir rodeandome de personas que me inspiren a mejorar y aprender</b> 
+            
             </p>
           </Col>
           <Col md={4} className="myAvtar">
