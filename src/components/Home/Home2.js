@@ -26,13 +26,13 @@ function Home2() {
               </i>
               <br />
               <br />
-              Me interesa seguir aprendiendo sobre el uso de distintos frameworks 
+              Me interesa seguir aprendiendo sobre el uso de distintos frameworks.
               <i> Y mejorar mi CSS 😅
                
               </i>
               <br />
               <br />
-             Disfruto mucho del trabajo en equipo y de aprender de mis compañeros, tener un buen ambiente de trabajo hace que el trabajo deje de ser trabajo <b className="purple">Espero seguir rodeandome de personas que me inspiren a mejorar y aprender</b> 
+             Disfruto mucho del trabajo en equipo y de aprender de mis compañeros, tener un buen ambiente de trabajo hace que el trabajo deje de ser trabajo. <b className="purple">Espero seguir rodeandome de personas que me inspiren a mejorar y aprender</b> 
             
             </p>
           </Col>
