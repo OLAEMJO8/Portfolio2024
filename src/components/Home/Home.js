@@ -13,24 +13,24 @@ function Home() {
           <Row>
             <Col md={7} className="home-header">
               <h1 style={{ paddingBottom: 15 }} className="heading-name">
-                Hola a todos{" "}
-                <span className="wave" role="img" aria-labelledby="wave">
-                  👋🏻
-                </span> {" "}
-                Soy
+                Hola a todos,
+                {/* <span className="wave" role="img" aria-labelledby="wave">
+                ,
+                </span> {" "} */}
+            
+            {" "}
+                soy
                 <strong className="main-name"> Majo</strong>
-              </h1>
-             
-
-
-              <div style={{ padding: 50, textAlign: "left" }}>
-                <div className="tracking-in-contract">
+                <div className="focus-in-contract" style={{ marginTop:20 }}>
                   <h2> Desarrolladora Front End</h2>
                 </div>
-                <div className="tracking-in-contract">
+                <div className="focus-in-contract">
                   <h2 className="main-name"> Artista</h2>
                 </div>
-              </div>
+              </h1>
+
+
+             
             </Col>
 
             <Col md={5} style={{ paddingBottom: 20 }}>
