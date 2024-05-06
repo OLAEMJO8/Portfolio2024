@@ -27,13 +27,15 @@ function ResumeNew() {
             style={{ maxWidth: "250px" }}
           >
             <AiOutlineDownload />
-            &nbsp;Download CV
+            &nbsp;Descarga mi CV
           </Button>
         </Row>
 
-        <Row className="resume">
-          <Document file={pdf} className="d-flex justify-content-center">
-            <Page pageNumber={1} scale={width > 786 ? 1.7 : 0.6} />
+        <Row className="resume justify-content-center">
+        <Document file={pdf} className="d-flex justify-content-center">
+            <div style={{ maxHeight: "500px", overflowY: "auto" }}>
+              <Page pageNumber={1} scale={width > 786 ? 1.7 : 0.5 } />
+            </div>
           </Document>
         </Row>
 
@@ -45,7 +47,7 @@ function ResumeNew() {
             style={{ maxWidth: "250px" }}
           >
             <AiOutlineDownload />
-            &nbsp;Download CV
+            &nbsp;Descarga mi CV
           </Button>
         </Row>
       </Container>
